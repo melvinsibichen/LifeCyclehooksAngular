@@ -7,6 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Lifecycletask';
-
+  name='angular'
+  show=false;
+  
+  inputext:string='';
+  
+  destroy:boolean=true;
+  
+  
+  
+  OnSubmit(inputEl:HTMLInputElement){
+  this.inputext=inputEl.value;
+  }
+  
+  
+  destroycomponent(){
+  
+  this.destroy=false;
+  }
+  
+  
+  toggle(){
+    this.show=!this.show;
+  }
 
 }

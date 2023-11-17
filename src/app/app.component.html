@@ -1,4 +1,19 @@
-<app-navbar></app-navbar>
 
-<app-product-dashboard></app-product-dashboard>
-<router-outlet></router-outlet>
+<div class="container">
+    <input type="text" #input>
+    <button (click)="OnSubmit(input)">register</button>
+    <app-child [value]="inputext"  *ngIf="destroy">
+  
+      <h4>this is projected content {{inputext}}</h4>
+    </app-child>
+  
+    <button (click)="destroycomponent()">destroy</button>
+  </div>
+  
+  <app-header *ngIf="show" name="{{name}}"></app-header>
+  
+  <p>start editing</p>
+  
+  
+  
+  <button (click)="toggle()">submit</button>

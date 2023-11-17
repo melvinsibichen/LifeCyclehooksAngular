@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDashboardComponent implements OnInit {
 //parent component with data
-  public salesProducts = [
-    { id: 1, name: 'Acs', price: '100' },
-    { id: 2, name: 'Phones', price: '2000' },
-    { id: 3, name: 'Fashion', price: '5000' },
-    { id: 4, name: 'Electronics', price: '3000' },
-  ];
+  // public salesProducts = [
+  //   { id: 1, name: 'Acs', price: '100' },
+  //   { id: 2, name: 'Phones', price: '2000' },
+  //   { id: 3, name: 'Fashion', price: '5000' },
+  //   { id: 4, name: 'Electronics', price: '3000' },
+  // ];
 
 
   constructor() {}
