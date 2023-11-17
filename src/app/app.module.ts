@@ -10,6 +10,7 @@ import { ProductDashboardComponent } from './components/product-dashboard/produc
 import { ProductWidgetComponent } from './components/product-dashboard/product-widget/product-widget.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ParentComponent } from './components/parent/parent.component';
+import { AuthorsComponent } from './components/authors/authors.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ParentComponent } from './components/parent/parent.component';
     ProductDashboardComponent,
     ProductWidgetComponent,
     NavbarComponent,
-    ParentComponent
+    ParentComponent,
+    AuthorsComponent
   ],
   imports: [
     BrowserModule,
