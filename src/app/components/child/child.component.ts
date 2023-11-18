@@ -7,7 +7,7 @@ import { Component,Input,OnChanges,OnInit,SimpleChanges, AfterContentChecked, Af
 })
 export class ChildComponent implements OnInit,OnChanges, DoCheck,AfterContentInit,AfterContentChecked,AfterViewInit,AfterViewChecked,OnDestroy {
 
-  @Input()  value:string='brototype';
+  @Input()  value:string='testing';
 
 ngOnChanges(change:SimpleChanges){
 console.log('onchanges called');
